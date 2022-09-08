@@ -7,6 +7,6 @@ url.searchParams.set('display', 'none');
 console.log(url.href); // https://example.com?addParam=test
 
 const button1 = document.getElementById("button1");
-if (window.location.href == 'file:///Users/oyamakazuhiko/Documents/projects/myPage/index.html?display=none') {
+if (window.location.href == 'https://okazhiko.github.io/?display=none') {
 	button1.style.display = "none";
 }
